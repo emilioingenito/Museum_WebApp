@@ -6,18 +6,12 @@ import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.OrderBy;
 
 @Entity
 public class Artista extends Persona{
 	
-	@Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-	private Long id;
 	private LocalDate dataDiMorte;
 	private String luogoDiMorte;
 	private String nazionalità;
