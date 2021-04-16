@@ -6,21 +6,15 @@ import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.OrderBy;
 
 @Entity
 public class Artista extends Persona{
 	
-	@Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-	private Long id;
 	private LocalDate dataDiMorte;
 	private String luogoDiMorte;
-	private String nazionalità;
+	private String nazionalita;
 	
 	/*ASSOCIAZIONI*/
 	@OneToMany(mappedBy = "autore", cascade=CascadeType.REMOVE)
@@ -50,12 +44,12 @@ public class Artista extends Persona{
 		this.luogoDiMorte = luogoDiMorte;
 	}
 
-	public String getNazionalità() {
-		return nazionalità;
+	public String getNazionalita() {
+		return nazionalita;
 	}
 
-	public void setNazionalità(String nazionalità) {
-		this.nazionalità = nazionalità;
+	public void setNazionalita(String nazionalita) {
+		this.nazionalita = nazionalita;
 	}
 
 	public List<Opera> getOpere() {
