@@ -14,7 +14,7 @@ public class Artista extends Persona{
 	
 	private LocalDate dataDiMorte;
 	private String luogoDiMorte;
-	private String nazionalità;
+	private String nazionalita;
 	
 	/*ASSOCIAZIONI*/
 	@OneToMany(mappedBy = "autore", cascade=CascadeType.REMOVE)
@@ -44,12 +44,12 @@ public class Artista extends Persona{
 		this.luogoDiMorte = luogoDiMorte;
 	}
 
-	public String getNazionalità() {
-		return nazionalità;
+	public String getNazionalita() {
+		return nazionalita;
 	}
 
-	public void setNazionalità(String nazionalità) {
-		this.nazionalità = nazionalità;
+	public void setNazionalita(String nazionalita) {
+		this.nazionalita = nazionalita;
 	}
 
 	public List<Opera> getOpere() {
