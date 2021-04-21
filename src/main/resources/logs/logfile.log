@@ -90,3 +90,4 @@ TRACE | 2021-04-14 19:06:23 | [main] internal.ResourceRegistryStandardImpl (Reso
 TRACE | 2021-04-14 19:06:23 | [main] internal.ResourceRegistryStandardImpl (ResourceRegistryStandardImpl.java:317) - Releasing JDBC resources
 TRACE | 2021-04-14 19:06:23 | [main] internal.ResourceRegistryStandardImpl (ResourceRegistryStandardImpl.java:317) - Releasing JDBC resources
 TRACE | 2021-04-14 19:06:23 | [main] internal.ResourceRegistryStandardImpl (ResourceRegistryStandardImpl.java:317) - Releasing JDBC resources
+ERROR | 2021-04-20 13:03:06 | [main] spi.SqlExceptionHelper (SqlExceptionHelper.java:142) - FATAL: database "museo" does not exist

@@ -8,8 +8,12 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 @Entity
-public class Opera {
+@NoArgsConstructor
+public @Data class Opera {
 	
 	@Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -27,49 +31,5 @@ public class Opera {
 	@ManyToOne(cascade = CascadeType.PERSIST)
 	private Artista autore;
 	
-	/*COSTRUTTORI*/
-	public Opera() {
-	}
-
-	/*GETTERS & SETTERS*/
-	public String getTitolo() {
-		return titolo;
-	}
-
-	public void setTitolo(String titolo) {
-		this.titolo = titolo;
-	}
-
-	public String getAnno() {
-		return anno;
-	}
-
-	public void setAnno(String anno) {
-		this.anno = anno;
-	}
-
-	public String getDescrizione() {
-		return descrizione;
-	}
-
-	public void setDescrizione(String descrizione) {
-		this.descrizione = descrizione;
-	}
-
-	public Collezione getCollezione() {
-		return collezione;
-	}
-
-	public void setCollezione(Collezione collezione) {
-		this.collezione = collezione;
-	}
-
-	public Artista getAutore() {
-		return autore;
-	}
-
-	public void setAutore(Artista autore) {
-		this.autore = autore;
-	}
 	
 }

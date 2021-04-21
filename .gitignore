@@ -3,3 +3,5 @@
 =======
 /target/
 >>>>>>> branch 'master' of https://github.com/emilioingenito/ProgettoDocente.git
+/.apt_generated/
+/.apt_generated_tests/
