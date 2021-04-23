@@ -24,6 +24,7 @@ public class MuseoMain {
 		tx.begin();
 		em.persist(o);
 		tx.commit();
+		
 			
 	}
 

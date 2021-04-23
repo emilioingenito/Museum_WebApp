@@ -9,8 +9,12 @@ import javax.persistence.Entity;
 import javax.persistence.OneToMany;
 import javax.persistence.OrderBy;
 
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
 @Entity
-public class Artista extends Persona{
+@EqualsAndHashCode(callSuper=true)
+public @Data class Artista extends Persona{
 	
 	private LocalDate dataDiMorte;
 	private String luogoDiMorte;
@@ -18,7 +22,7 @@ public class Artista extends Persona{
 	
 	/*ASSOCIAZIONI*/
 	@OneToMany(mappedBy = "autore", cascade=CascadeType.REMOVE)
-	@OrderBy("anno desc") //dall'opera piÃ¹ recente
+	@OrderBy("anno desc") //dall'opera più recente
 	private List<Opera> opereCreate;
 	
 	/*COSTRUTTORI*/
@@ -27,45 +31,4 @@ public class Artista extends Persona{
 		
 	}
 
-	/*GETTERS & SETTERS*/
-	public LocalDate getDataDiMorte() {
-		return dataDiMorte;
-	}
-
-	public void setDataDiMorte(LocalDate dataDiMorte) {
-		this.dataDiMorte = dataDiMorte;
-	}
-
-	public String getLuogoDiMorte() {
-		return luogoDiMorte;
-	}
-
-	public void setLuogoDiMorte(String luogoDiMorte) {
-		this.luogoDiMorte = luogoDiMorte;
-	}
-
-	public String getNazionalita() {
-		return nazionalita;
-	}
-
-	public void setNazionalita(String nazionalita) {
-		this.nazionalita = nazionalita;
-	}
-
-	public List<Opera> getOpere() {
-		return opereCreate;
-	}
-
-	public void setOpere(List<Opera> opere) {
-		this.opereCreate = opere;
-	}
-	
-	public void aggiungiOpera(Opera o) {
-		this.opereCreate.add(o);
-	}
-	
-	public void rimuoviOpera(Opera o) {
-		this.opereCreate.remove(o);
-	}
-	
 }
