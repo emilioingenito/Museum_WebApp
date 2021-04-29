@@ -8,6 +8,7 @@
 .titleContainer{
     height: 45px;
     width: 100%;
+    position: fixed;
     top: 0;
     background-color: black;
 }
@@ -26,7 +27,7 @@
     width: 100%;
     display: flex;
     position: fixed;
-    top: 45;
+    top: 45px;
     left: 0;
     align-items: center;
     justify-content: space-evenly;
@@ -38,11 +39,15 @@
     display: flex;
     color: white;
     text-decoration: none;
+    font-size: large;
+}
+
+.linkNavbar:hover{
+    font-size: larger;
 }
 
 .elemNavbar:hover{
     background-color: rgba(128, 128, 128, 0.582);
-    font-size: large;
 }
 
 .elemNavbar{
@@ -82,4 +87,71 @@
 
 .caption:hover{
     background: rgba(203, 204, 203, 0.349);
+}
+
+/* Diplay delle opere con i loro componenti  */
+
+.containerOpere{
+    /* border: solid yellow 2px; */
+    display: flex;
+    flex-direction: column 2;
+    margin-top: 30px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.colonna {
+    /* border: solid fuchsia 2px; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.singolaOpera{
+    /* border: solid purple 2px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.immagine{
+    /* border: solid green 2px; */
+    display: flex;
+    background: url(images/img2.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.descrizione{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.linkInterno{
+    /* border: solid orange 2px; */
+    width: 100%;
+    padding: 2% 10% 2% 20%;
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}
+
+.titolo {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.linkInterno:hover{
+    font-size: x-large;
+}
+
+.titolo:hover{
+    font-size: xx-large;
 }
