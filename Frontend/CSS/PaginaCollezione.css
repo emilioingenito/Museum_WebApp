@@ -1,0 +1,114 @@
+
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+}
+
+/******************************************/
+/* Diplay delle opere con i loro componenti  */
+/******************************************/
+
+.containerOpere{
+    /* border: solid yellow 2px; */
+    display: flex;
+    flex-direction: column 2;
+    margin-top: 30px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.colonna {
+    /* border: solid fuchsia 2px; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.singolaOpera{
+    /* border: solid purple 2px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.immagine{
+    /* border: solid green 2px; */
+    display: flex;
+    background: url(../images/img2.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.descrizione{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.linkInterno{
+    /* border: solid orange 2px; */
+    width: 100%;
+    padding: 2% 10% 2% 20%;
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}
+
+.titolo {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.linkInterno:hover{
+    font-size: x-large;
+}
+
+.titolo:hover{
+    font-size: xx-large;
+}
+
+/****************************/
+/*CSS Incipit*/
+/****************************/
+
+.incipit{
+    /* border: solid royalblue 2px; */
+    display: flex;
+    flex-direction: column 2;
+}
+
+.titoli{
+    /* border: solid yellow 2px; */
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 100px;
+}
+
+.titoli>h1{
+    display: flex;
+    margin: 1% 0 0 2%;
+    font-size: 250%;
+}
+
+.titoli>p{
+    display: flex;
+    margin: 1% 0 2% 2.3%;
+    font-size: 130%;
+}
+
+.date{
+    /* border: solid brown 2px; */
+    font-size: 130%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    justify-content: center;
+}
