@@ -67,22 +67,21 @@
     margin: 30px 0 0 0;
     background-image: url(images/img2.jpg);
     background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.captionContainer{
-    width: 100%;
-    position: absolute;
-    bottom: 50%;
-    text-align: center;
-}
 
 .caption{
     /* border: solid red 2px; */
-    display: inline;
-    /* text-align: center; */
+    display: flex;
+    text-align: center;
     padding: 5px; 
     font-size: xx-large;
     font-weight: bolder;
+    color: black;
+    z-index: 10;
 }
 
 .caption:hover{
