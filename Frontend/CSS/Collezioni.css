@@ -1,0 +1,82 @@
+
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+}
+
+
+/*************************/
+/*CSS Contenuto della pagina*/
+/*************************/
+
+.page_content{
+    /* border: solid yellow 2px; */
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.nome_pagina{
+    /* border: solid aqua 2px; */
+    padding-left: 7%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 300%;
+}
+
+.single_collection{
+    border: solid black 1px;
+    box-shadow: 4px 8px rgba(175, 172, 172, 0.596);
+    margin: 2%;
+    display: flex;
+    flex-direction: column 3;
+    height: 120px;
+}
+
+
+.image{
+    /* border: solid chartreuse 2px; */
+    display: flex;
+    background-image: url("../images/img1.jpg");
+    background-size: cover;
+    width: 15%;
+}
+
+.description{
+    /* border: solid red 2px;; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 5%;
+}
+
+.collection_link{
+    /* border: solid blue 2px; */
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.collection_link:hover{
+    text-decoration: underline;
+}
+
+.description>p{
+    /* border: solid orange 2px; */
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.single_collection>p{
+    /* border: solid magenta 2px; */
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30%;
+}
