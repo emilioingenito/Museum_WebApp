@@ -72,7 +72,7 @@
 }
 
 .artistPic{
-  background-image: url(vanGogh.jpg);
+  background-image: url(../images/vanGogh.jpg);
   background-size: cover;
   border-radius: 10px;
   flex-grow: 3;
@@ -147,7 +147,7 @@
 }
 
 .op1{
-  background-image: url(notteStellata.jpg);
+  background-image: url(../images/notteStellata.jpg);
   background-size: cover;
   flex-grow: 1;
   margin-right: 20px;
@@ -157,7 +157,7 @@
 }
 
 .op2{
-  background-image: url(girasoli.jpg);
+  background-image: url(../images/girasoli.jpg);
   background-size: cover;
   flex-grow: 1;
   margin-right: 20px;
@@ -167,7 +167,7 @@
 }
 
 .op3{
-  background-image: url(autoritratto.jpg);
+  background-image: url(../images/autoritratto.jpg);
   background-size: cover;
   flex-grow: 1;
   margin-right: 20px;
