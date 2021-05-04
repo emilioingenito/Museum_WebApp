@@ -53,20 +53,20 @@
     color: white;
     text-decoration: none;
     font-size: 150%;
+    padding: 5px;
 }
 
 .linkNavbar:hover{
     font-size: 170%;
-}
-
-.elemNavbar:hover{
     background-color: rgba(128, 128, 128, 0.582);
 }
 
 .elemNavbar{
     height: 100%;
+    width: 33%;
     /* border: solid blue 2px; */
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 5px;
 }

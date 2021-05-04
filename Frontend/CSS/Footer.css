@@ -1,0 +1,17 @@
+
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+}
+
+.footer{
+    border: solid gold 2px;
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+
+.wt{
+    background-color: white;
+}
