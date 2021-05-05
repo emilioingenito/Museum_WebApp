@@ -1,0 +1,215 @@
+
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+}
+
+.titleContainer{
+    height: 45px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: black;
+}
+
+.title{
+    padding: 5px 10px 5px 10px;
+    color: white;
+    margin-left: 30px;
+}
+
+/* CSS Navbar e componenti  */
+.navbar{
+    /* border: solid red 2px; */
+    border-top: white 1px solid;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 45px;
+    left: 0;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.linkNavbar{
+    /* border: solid pink 2px; */
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+.linkNavbar:hover{
+    font-size: larger;
+}
+
+.elemNavbar:hover{
+    background-color: rgba(128, 128, 128, 0.582);
+}
+
+.elemNavbar{
+    height: 100%;
+    /* border: solid blue 2px; */
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+/*
+	Nome opera, foto
+*/
+.workName{
+  margin: 133px 50px 10px 50px;
+}
+
+.pic{
+  background-image: url(../images/notteStellata.jpg);
+  background-size: 100% 100%;
+  margin: 0px 50px 50px 50px;
+  height: 600px;
+}
+
+.bioPar{
+	margin: 10px 0px;
+}
+
+.desc{
+	margin-bottom: 10px;
+}
+
+#flex-container{
+  display: flex;
+  margin: 0px 50px;
+  height: 550px;
+}
+
+.picBio{
+  flex-grow: 1;
+  width: 50%;
+}
+
+.picInfo{
+  flex-grow: 1;
+}
+
+.bioPar{
+  text-align: justify;
+  text-justify: auto;
+  font-size: 18px;
+}
+
+.boxDati{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  color: white;
+  background-color: sienna;
+  margin-left: 20px;
+  font-size: 20px;
+  height: 70px;
+}
+
+.boxInfo{
+  margin-left: 20px;
+  text-align: center;
+  border: 2px solid sienna;
+  background-color: bisque;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; 
+  font-size: 20px;
+}
+
+.question{
+  margin-top: 20px;
+}
+
+.answer{
+  margin-bottom: 20px;
+}
+
+/*
+	Opere correlate
+*/
+
+.correlate{
+  margin-left: 50px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.opereCont{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 30px 50px 50px;
+  height: 350px;
+}
+.opera{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.op1{
+  background-image: url(../images/notteStellata.jpg);
+  background-size: cover;
+  flex-grow: 1;
+  margin-right: 20px;
+  align-items: stretch;
+  border-radius: 20px;
+  height: 200px;
+}
+
+.op2{
+  background-image: url(../images/girasoli.jpg);
+  background-size: cover;
+  flex-grow: 1;
+  margin-right: 20px;
+  align-items: stretch;
+  border-radius: 20px;
+  height: 200px;
+}
+
+.op3{
+  background-image: url(../images/autoritratto.jpg);
+  background-size: cover;
+  flex-grow: 1;
+  margin-right: 20px;
+  align-items: stretch;
+  border-radius: 20px;
+  height: 200px;
+}
+
+.nomeOpera{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+footer{
+  background-color: black;
+  height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
