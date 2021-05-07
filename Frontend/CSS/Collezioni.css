@@ -34,6 +34,7 @@
     display: flex;
     flex-direction: column 3;
     height: 120px;
+    border-radius: 10px;
 }
 
 
@@ -41,6 +42,7 @@
     /* border: solid chartreuse 2px; */
     display: flex;
     background-image: url("../images/img1.jpg");
+    border-radius: 10px 0px 0px 10px;
     background-size: cover;
     width: 15%;
 }

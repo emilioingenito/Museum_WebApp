@@ -19,45 +19,6 @@
     margin-left: 30px;
 }
 
-/* CSS Navbar e componenti  */
-.navbar{
-    /* border: solid red 2px; */
-    border-top: white 1px solid;
-    height: 30px;
-    width: 100%;
-    display: flex;
-    position: fixed;
-    top: 45px;
-    left: 0;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: black;
-}
-
-.linkNavbar{
-    /* border: solid pink 2px; */
-    display: flex;
-    color: white;
-    text-decoration: none;
-    font-size: large;
-}
-
-.linkNavbar:hover{
-    font-size: larger;
-}
-
-.elemNavbar:hover{
-    background-color: rgba(128, 128, 128, 0.582);
-}
-
-.elemNavbar{
-    height: 100%;
-    /* border: solid blue 2px; */
-    display: flex;
-    align-items: center;
-    padding: 5px;
-}
-
 /*Nome artista, foto e biografia*/
 .artistName{
   margin: 130px 50px 10px 50px;
@@ -74,6 +35,7 @@
 .artistPic{
   background-image: url(../images/vanGogh.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 10px;
   flex-grow: 3;
 }
@@ -89,7 +51,7 @@
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   color: white;
-  background-color: sienna;
+  background-color: #4072a0;
   margin-left: 20px;
   height: 70px;
 }
@@ -97,8 +59,8 @@
 .boxInfo{
   margin-left: 20px;
   text-align: center;
-  border: 2px solid sienna;
-  background-color: bisque;
+  border: 2px solid #4072a0;
+  background-color: #b0f4ff;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px; 
 }

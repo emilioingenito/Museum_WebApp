@@ -35,6 +35,7 @@
     align-items: center;
     width: 80%;
     margin-bottom: 40px;
+    border-radius: 10px;
 }
 
 .immagine{
@@ -44,6 +45,7 @@
     background-size: cover;
     height: 200px;
     width: 100%;
+    border-radius: 10px;
 }
 
 .descrizione{
