@@ -10,23 +10,41 @@
 /******************************************/
 
 .titleContainer{
+    /* border: solid red 2px; */
     height: 50px;
     width: 100%;
     position: fixed;
+    display: flex;
+    flex-direction: row;
     top: 0;
     background-color: black;
+    z-index: 1;
+}
+
+.icona{
+    /* border: solid blue 2px; */
+    color: white;
+    z-index: 1;
+    display: flex;
+    margin-left: 20px;
+}
+
+.padd{
+    padding-top: 8px;
 }
 
 .title{
-    padding: 10px;
+    /* border: solid green 2px; */
+    /* padding: 10px; */
     color: white;
+    display: flex;
     margin-left: 30px;
     text-decoration: none;
     font-size: 250%;
 }
 
-.title:hover{
-    font-size: 270%;
+.icona:hover{
+    background-color: rgba(128, 128, 128, 0.582);  
 }
 
 /******************************************/
