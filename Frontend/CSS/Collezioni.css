@@ -64,6 +64,15 @@
     font-size: xx-large;
 }
 
+.collection_link_exp{
+    /* border: solid blue 2px; */
+    text-decoration: none;
+    color: black;
+    opacity: 50%;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
 .collection_link:hover{
     text-decoration: underline;
 }

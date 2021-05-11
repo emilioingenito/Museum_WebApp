@@ -41,7 +41,7 @@
 .immagine{
     /* border: solid green 2px; */
     display: flex;
-    background: url(../images/img2.jpg);
+    background: url(../images/notteStellata.jpg);
     background-size: cover;
     height: 200px;
     width: 100%;
