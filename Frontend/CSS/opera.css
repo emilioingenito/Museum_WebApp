@@ -33,6 +33,13 @@
   height: 600px;
 }
 
+.pic2{
+  background-image: url(../images/img2.jpg);
+  background-size: 100% 100%;
+  margin: 0px 50px 50px 50px;
+  height: 600px;
+}
+
 .bioPar{
 	margin: 10px 0px;
 }
@@ -137,6 +144,16 @@
 }
 
 .op3{
+  background-image: url(../images/img2.jpg);
+  background-size: cover;
+  flex-grow: 1;
+  margin-right: 20px;
+  align-items: stretch;
+  border-radius: 20px;
+  height: 200px;
+}
+
+.op4{
   background-image: url(../images/autoritratto.jpg);
   background-size: cover;
   flex-grow: 1;
