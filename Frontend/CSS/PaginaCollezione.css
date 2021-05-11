@@ -58,6 +58,16 @@
     border-radius: 10px;
 }
 
+.immagineM{
+    /* border: solid green 2px; */
+    display: flex;
+    background: url(../images/ilFalsoSpecchio.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
 .descrizione{
     display: flex;
     flex-direction: column;

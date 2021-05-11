@@ -33,6 +33,13 @@
   height: 600px;
 }
 
+.picSpecchio{
+  background-image: url(../images/ilFalsoSpecchio.jpg);
+  background-size: 100% 100%;
+  margin: 0px 50px 50px 50px;
+  height: 600px;
+}
+
 .pic2{
   background-image: url(../images/img2.jpg);
   background-size: 100% 100%;
@@ -116,6 +123,7 @@
   margin: 0px 30px 50px 50px;
   height: 350px;
 }
+
 .opera{
   display: flex;
   flex-direction: column;
@@ -124,7 +132,7 @@
 }
 
 .op1{
-  background-image: url(../images/notteStellata.jpg);
+  background-image: url(../images/autoritratto.jpg);
   background-size: cover;
   flex-grow: 1;
   margin-right: 20px;
@@ -155,6 +163,46 @@
 
 .op4{
   background-image: url(../images/autoritratto.jpg);
+  background-size: cover;
+  flex-grow: 1;
+  margin-right: 20px;
+  align-items: stretch;
+  border-radius: 20px;
+  height: 200px;
+}
+
+.op5{
+  background-image: url(../images/notteStellata.jpg);
+  background-size: cover;
+  flex-grow: 1;
+  margin-right: 20px;
+  align-items: stretch;
+  border-radius: 20px;
+  height: 200px;
+}
+
+.opM1{
+  background-image: url(../images/golconda.jpg);
+  background-size: cover;
+  flex-grow: 1;
+  margin-right: 20px;
+  align-items: stretch;
+  border-radius: 20px;
+  height: 200px;
+}
+
+.opM2{
+  background-image: url(../images/ilFiglioDellUomo.jpg);
+  background-size: cover;
+  flex-grow: 1;
+  margin-right: 20px;
+  align-items: stretch;
+  border-radius: 20px;
+  height: 200px;
+}
+
+.opM3{
+  background-image: url(../images/gliAmanti.jpg);
   background-size: cover;
   flex-grow: 1;
   margin-right: 20px;

@@ -40,6 +40,14 @@
   flex-grow: 3;
 }
 
+.artistPic2{
+  background-image: url(../images/magritte.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  flex-grow: 3;
+}
+
 .artistInfo{
   flex-grow: 1;
 }
@@ -130,6 +138,36 @@
 
 .op3{
   background-image: url(../images/img2.jpg);
+  background-size: cover;
+  flex-grow: 1;
+  margin-right: 20px;
+  align-items: stretch;
+  border-radius: 20px;
+  height: 200px;
+}
+
+.opM1{
+  background-image: url(../images/ilFalsoSpecchio.jpg);
+  background-size: cover;
+  flex-grow: 1;
+  margin-right: 20px;
+  align-items: stretch;
+  border-radius: 20px;
+  height: 200px;
+}
+
+.opM2{
+  background-image: url(../images/golconda.jpg);
+  background-size: cover;
+  flex-grow: 1;
+  margin-right: 20px;
+  align-items: stretch;
+  border-radius: 20px;
+  height: 200px;
+}
+
+.opM3{
+  background-image: url(../images/ilFiglioDellUomo.jpg);
   background-size: cover;
   flex-grow: 1;
   margin-right: 20px;

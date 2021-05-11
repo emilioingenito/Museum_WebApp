@@ -42,10 +42,41 @@
 .image{
     /* border: solid chartreuse 2px; */
     display: flex;
-    background-image: url("../images/img1.jpg");
     border-radius: 10px 0px 0px 10px;
     background-size: cover;
     width: 15%;
+}
+
+.vanG{
+	background-image: url("../images/vanGogh.jpg");
+}
+
+.magritte{
+	background-image: url("../images/magritte.jpg");
+}
+
+.monet{
+	background-image: url("../images/monet.jpg");
+}
+
+.degas{
+	background-image: url("../images/degas.jpg");
+}
+
+.dream{
+	background-image: url("../images/ilFalsoSpecchio.jpg");
+}
+
+.table{
+	background-image: url("../images/table.jpg");
+}
+
+.sky{
+	background-image: url("../images/gliAmanti.jpg");
+}
+
+.glass{
+	background-image: url("../images/golconda.jpg");
 }
 
 .description{
