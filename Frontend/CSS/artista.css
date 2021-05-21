@@ -35,6 +35,7 @@
 .artistPic{
   background-image: url(../images/vanGogh.jpg);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   border-radius: 10px;
   flex-grow: 3;
